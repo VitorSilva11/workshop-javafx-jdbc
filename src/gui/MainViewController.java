@@ -61,6 +61,7 @@ public class MainViewController implements Initializable{
 			
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteMain));
 			VBox newVBox = loader.load();
+		
 			
 			Scene mainScene = Main.getMainScene();
 			
