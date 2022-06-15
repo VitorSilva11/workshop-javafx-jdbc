@@ -103,6 +103,7 @@ public class DepartmentListController implements Initializable{
 			
 			DepartmentFormController controller = loader.getController();
 			controller.setEntityData(obj);
+			controller.setService(new DepartmentService());
 			controller.updateFormData();
 
 
